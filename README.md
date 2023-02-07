@@ -20,6 +20,6 @@ But now, somehow, magically, it works if we go the manual way about this
 
 1. Open up PowerShell and navigate to this repository
 2. `dotnet build "MinimalExample.csproj" -c Release -o ./output`
-3. `dotnet .\MinimalExample.dll`
+3. `dotnet .\output\MinimalExample.dll`
 
 And everything will work fine.
